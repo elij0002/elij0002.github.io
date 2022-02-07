@@ -1,5 +1,5 @@
-Photo of me: taken by me
-IMG_6946.HEIC
+Photo of me: taken by me: myself.HEIC
+
 <img src= "images/myself.HEIC" alt="photo of myself">
 
 <h1> My hobbies </h1>
