@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> Photo of me taken: By me</title>
+    </head>
+    <body> 
+    <h2>My hobbies</h2>
+
+    
+
+    </body>
+    </html>
