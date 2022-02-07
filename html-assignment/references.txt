@@ -1,3 +1,11 @@
 Photo of me: taken by me
 IMG_6946.HEIC
-<img src= "images/photo.of.myself.HEIC" alt="phot.of.myself">
+<img src= "images/myself.HEIC" alt="photo of myself">
+
+<h1> My hobbies </h1>
+<ul>
+    <li>Painting</li>
+    <li>Reading</li>
+    <li>Watching movies</li>
+
+</ul>
