@@ -1,0 +1,27 @@
+/*notes.html stylesheet*/
+body {
+    background-color: pink;
+    font-family: 18px;
+}
+
+.site-title {
+    color: rgb(36, 173, 139);
+ }
+
+a:link,a:visited {
+    background-color:salmon;
+    color:white;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    border:1px solid black;
+}
+
+a:active {
+    background-color: rgb(250, 107, 91);
+}
+ 
