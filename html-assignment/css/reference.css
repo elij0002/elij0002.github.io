@@ -23,7 +23,7 @@ ul {
     list-style-type: square;
   }
 
-  ul2 {
+ .first-ul {
       list-style-type: none;
   }
 
