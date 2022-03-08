@@ -1,17 +1,96 @@
 /* index.html css stylesheet */
-h1{
-    font-size: 50px;
+html {
+  box-sizing: border-box;
+  }
+
+  *,
+  *:before,
+  *:after {
+   box-sizing: inherit;
+  }
+
+header {
+    font-size: 40px;
+    line-height: 3.5rem;
 }
 
+/*aligning header to the center*/
 .center {
     text-align: center;
 }
 
 body {
-    background-color: rgb(142, 233, 224);
-    background-image: url("../images/lone-starfish-wide.jpg");
+    background-color:rgb(176, 240, 233);
+    background-image:url("../images/lone-starfish-wide.jpg");
     background-repeat:no-repeat;
-    background-size: cover;
+    background-position:0px 0px;
+    background-size: contain; 
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
+    
 }
+ 
+/* to move the content off the background image */
+.wrapper{
+    width: 600px;
+    margin: 20rem;
+}
+
+nav ul {
+    padding-left: 0;
+}
+
+/* to create vertical tags  */
+nav ul li {
+    display: inline-block;
+    font-size: large;
+    width: 250px;
+} 
+
+nav ul li a:after {
+    margin-right: 5px;
+}
+
+nav ul li:nth-child(2) {
+    margin-right: 5px;
+}
+
+nav ul li:nth-child(3) {
+    margin-right: 5px;
+}
+
+/* to remove text decoration and create similar to background*/
+ul {
+    list-style-type: none;
+}
+
+a:link {
+    background-color: rgb(176, 240, 233);
+    color:black;
+    padding:3px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+/* to move the rest of the content to the left side */
+.style {
+    text-align: left;
+}
+
+h1{
+color:black;
+}
+
+    
+    
+
+ .box-model {
+    background-color:rgb(176, 240, 233);
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 3px solid #000;
+    box-sizing: border-box;
+} 
