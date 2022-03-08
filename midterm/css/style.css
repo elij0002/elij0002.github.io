@@ -30,7 +30,6 @@ body {
     background-size: contain; 
     color: white;
     font-family:Arial, Helvetica, sans-serif;
-    
 }
  
 /* to move the content off the background image */
@@ -51,11 +50,13 @@ nav ul {
 /* to create vertical tags  */
 nav ul li {
     display: inline-block;
+    background-color:rgb(176, 240, 233) ;
     font-size: large;
     width: 250px;
+    padding:1rem;
 } 
 
-nav ul li a:after {
+nav ul li a:nth-child(1) {
     margin-right: 5px;
 }
 
@@ -73,7 +74,6 @@ ul {
 }
 
 a:link {
-    background-color: rgb(176, 240, 233);
     color:black;
     padding:3px 3px;
     text-align: center;
@@ -134,6 +134,9 @@ form div{
 
 .button{
     background-color: rgb(176, 240, 233);
+    border:black;
+    color:white;
+    padding: 15px 32px;
 }
 
 .end{
